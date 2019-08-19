@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -9,22 +9,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="icon" href="assets/favicon.ico">
 	<link rel="stylesheet" href="assets/main.css">
-
 </head>
 
 <body>
 
+	<header>
+		<div class="box">
+			<a href="#" class="logo">Rename</a>
+			<div class="text">Rename images easily! ;)</div>
+		</div>
+	</header>
+
 	<main>
-		<header>
-			<section>
-				<a href="#" class="logo">Rename</a>
-				<div class="text">Rename images easily! ;)</div>
-			</section>
-		</header>
-
-		<div class="inner">
-			<section>
-
+		<section class="inner">
+			<div class="box">
 				<h1>Remove -min from images.</h1>
 
 				<div class="upload">
@@ -119,18 +117,19 @@
 						}
 					?>
 				</div>
-			</section>
-		</div>
-
-		<footer>
-			<section>
-				<strong>© koliesnyk</strong>
-				<p>All rights reserved.</p>
-			</section>
-		</footer>
+			</div>
+		</section>
 	</main>
 
+	<footer>
+		<div class="box">
+			<strong>© koliesnyk</strong>
+			<p>All rights reserved.</p>
+		</div>
+	</footer>
+
 	<script src="assets/jquery.js"></script>
+
 	<script>
 		$(document).ready(function($) {
 			var input = $('#upload'),
